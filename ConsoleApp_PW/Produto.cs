@@ -34,6 +34,21 @@ namespace ConsoleApp_PW
             return descricao;
         }
 
+        public void setId(int id)
+        {
+            Id = id; 
+        }
+
+        public void setValor(decimal valor)
+        {
+            Valor = valor; 
+        }
+
+        public void setDescricao(string descricao)
+        {
+            Descricao = descricao;
+        }
+
 
 
     }
