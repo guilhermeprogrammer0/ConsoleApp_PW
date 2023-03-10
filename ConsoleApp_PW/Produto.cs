@@ -19,6 +19,21 @@ namespace ConsoleApp_PW
             Descricao = descricao;
         }
 
+        public int getId()
+        {
+            return id;
+        }
+
+        public decimal getValor()
+        {
+            return valor;
+        }
+
+        public string getDescricao()
+        {
+            return descricao;
+        }
+
 
 
     }
