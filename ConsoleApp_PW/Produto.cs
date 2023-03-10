@@ -8,9 +8,9 @@ namespace ConsoleApp_PW
 {
      public class Produto
     {
-        private int id;
-        private decimal valor;
-        private string descricao;
+        private int Id;
+        private decimal Valor;
+        private string Descricao;
 
         public Produto(int id, decimal valor, string descricao)
         {
@@ -21,17 +21,17 @@ namespace ConsoleApp_PW
 
         public int getId()
         {
-            return id;
+            return Id;
         }
 
         public decimal getValor()
         {
-            return valor;
+            return Valor;
         }
 
         public string getDescricao()
         {
-            return descricao;
+            return Descricao;
         }
 
         public void setId(int id)
