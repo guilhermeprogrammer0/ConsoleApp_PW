@@ -54,5 +54,10 @@ namespace ConsoleApp_PW
         {
             Endereco = endereco;
         }
+
+        public string Dados()
+        {
+            return "\n Id: " + this.Id + "\nNome: " + this.Nome + "\n Telefone: " + this.Telefone;
+        }
     }
 }

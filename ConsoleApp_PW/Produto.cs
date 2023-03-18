@@ -48,7 +48,10 @@ namespace ConsoleApp_PW
         {
             Descricao = descricao;
         }
-
+        public string dadosProduto()
+        {
+            return "\n Id: " + this.Id + "\nNome: " + this.Descricao+ "\n Valor: " + this.Valor;
+        }
 
 
     }
