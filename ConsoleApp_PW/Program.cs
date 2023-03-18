@@ -64,6 +64,21 @@ Console.WriteLine(speed.exibirDados());//speed herdou o método exibir dados da 
 Console.WriteLine(gol.exibirDados());//gol herdou o método exibir dados da classe pai
 
 
+List<Carro> listaCarros = new List<Carro>();
+listaCarros.Add(gol);
+listaCarros.Add(palio);
+listaCarros.Add(uno);
+listaCarros.Add(saveiro);
+//Console.WriteLine(ListaCarros[0].fabricante);
+//ListaCarros.Remove(palio);
+
+foreach(var item in listaCarros)//Percorre cada item de uma lista
+{
+    Console.WriteLine(item.exibirMarca());
+}
+
+
+
 
 
 
