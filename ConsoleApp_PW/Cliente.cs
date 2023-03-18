@@ -60,4 +60,4 @@ namespace ConsoleApp_PW
             return "\n Id: " + this.Id + "\nNome: " + this.Nome + "\n Telefone: " + this.Telefone;
         }
     }
-}
+}           

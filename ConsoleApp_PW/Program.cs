@@ -79,8 +79,6 @@ foreach(var item in listaCarros)//Percorre cada item de uma lista
 
 
 
-
-
 //Exercício do dia 17-03
 List<Cliente> listaCliente = new List<Cliente>();//Exercício 1
 listaCliente.Add(c1);
