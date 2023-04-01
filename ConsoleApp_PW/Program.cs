@@ -120,8 +120,17 @@ foreach (var item in listaVeiculo)//Percorre cada item de uma lista
 
 
 
+Console.WriteLine("------------------------");
+Console.WriteLine("Exercício Lista");
+Vendas venda = new Vendas(c1, "02/04/2023");
+List<Produto> lista_produtosvenda = new List<Produto>();
+for (int i = 0; i < 10; i++)
+{
+    Produto pvenda = new Produto(i, i * 3 - i, " Produto " + i);
+    lista_produtosvenda.Add(pvenda);
+    Console.WriteLine("Nome do Produto: " + lista_produtosvenda[i].getDescricao() + " Comprado por " + venda.getCliente().getNome() + " na data: " + venda.getData());
 
-
+}
 
 
 
